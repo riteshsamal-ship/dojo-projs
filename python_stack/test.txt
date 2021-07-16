@@ -1,0 +1,60 @@
+Microsoft Windows [Version 10.0.19042.928]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\rites>pip install Django==1.11.9
+Collecting Django==1.11.9
+  Downloading https://files.pythonhosted.org/packages/c8/a6/291039f0ce4b9818e0399359866337e6dfe9c0e23d8d94f00e657edbfcd8/Django-1.11.9-py2.py3-none-any.whl (6.9MB)
+    100% |████████████████████████████████| 7.0MB 167kB/s
+Collecting pytz (from Django==1.11.9)
+  Downloading https://files.pythonhosted.org/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl (510kB)
+    100% |████████████████████████████████| 512kB 1.5MB/s
+Installing collected packages: pytz, Django
+Successfully installed Django-1.11.9 pytz-2021.1
+You are using pip version 9.0.1, however version 21.1.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+C:\Users\rites>
+C:\Users\rites>ppppo
+'ppppo' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\rites>pip list
+DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
+Django (1.11.9)
+pip (9.0.1)
+pytz (2021.1)
+setuptools (28.8.0)
+You are using pip version 9.0.1, however version 21.1.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+C:\Users\rites>deactivate
+'deactivate' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\rites>pip3 list
+DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
+Django (1.11.9)
+pip (9.0.1)
+pytz (2021.1)
+setuptools (28.8.0)
+You are using pip version 9.0.1, however version 21.1.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+C:\Users\rites>OneDrive/Desktop/CodingDojo/python_stack/my_environments
+'OneDrive' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\rites>/Desktop/CodingDojo/python_stack/my_environments
+The system cannot find the path specified.
+
+C:\Users\rites>pip install Django==1.11.9
+Requirement already satisfied: Django==1.11.9 in c:\users\rites\appdata\local\programs\python\python36\lib\site-packages
+Requirement already satisfied: pytz in c:\users\rites\appdata\local\programs\python\python36\lib\site-packages (from Django==1.11.9)
+You are using pip version 9.0.1, however version 21.1.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+C:\Users\rites>pip freeze
+Django==1.11.9
+pytz==2021.1
+You are using pip version 9.0.1, however version 21.1.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.

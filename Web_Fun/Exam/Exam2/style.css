@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#wrapper
+{
+    background-color: #1a1a1a;
+    width: 970px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+#nav
+{
+    background-image: linear-gradient(to bottom, #525252, #464646, #3a3a3a, #2e2e2e, #232323);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#mainpic img
+{
+    max-width:970px;
+}
+
+#services
+{
+   display: flex;
+}
+
+#buy
+{
+    background-image: linear-gradient(135deg, #111111 8.33%, #050505 8.33%, #050505 50%, #111111 50%, #111111 58.33%, #050505 58.33%, #050505 100%);
+    background-size: 8.49px 8.49px;
+    margin-top: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    display: flex;
+}
+
+#Portfolios
+{
+    display: flex;
+}
+
+#title
+{
+    flex: 2;
+    
+    
+}
+
+.button
+{
+    flex: 1;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.service
+{
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.simage
+{
+    margin: 10px;
+    padding-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin:15px;
+}
+
+.Portfolio img {
+    border: 5px solid #555;
+  }
+
+ul 
+{
+    color: white;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+p
+{
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+h2
+{
+    color:#ec7a28;
+    white-space: nowrap;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+button
+{
+    line-height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 7px;
+    color: white;
+    background: #f29a58;
+    background: -moz-linear-gradient(top, #f29a58 0%, #EF7F2C 100%);
+    background: -webkit-linear-gradient(top, #f29a58 0%, #EF7F2C 100%);
+    background: linear-gradient(to bottom, #f29a58 0%, #EF7F2C 100%);
+}
+
+span
+{
+    color: white;
+    font-size: 25px;
+}
+
+

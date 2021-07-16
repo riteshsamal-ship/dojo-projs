@@ -1,0 +1,197 @@
+*
+{
+    color: #fafbfb;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#wrapper
+{
+    width: 970px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#nav
+{
+    background-color: #062134;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Services
+{
+    padding: 10px;
+}
+
+#Projects
+{
+    padding: 10px;
+}
+
+#Clients
+{
+    padding: 10px;
+}
+
+#consulting
+{
+    color: #1a94e1;
+}
+
+#world h3
+{
+    color: #072134;
+}
+
+#Goal p
+{
+    margin-top: 30px;
+    margin-right: 25px;
+    color: #072134;
+}
+
+#Goal a
+{
+    color: #072134;
+}
+
+#Testimonial h2
+{
+    color: #072134;
+}
+
+#Testimonial p
+{
+    color: #072134;
+    margin-top: 150px;
+    margin-right: 50px;
+    white-space: nowrap;
+}
+
+#footer
+{
+    background-color: #072134;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+#flex-container h2
+{
+    display: inline-block;
+}
+
+
+.flex-container
+{
+    display: flex;
+}
+
+.flex-container > * 
+{
+    background-color: #1468a8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right:10px;
+    flex: 1;
+}
+
+.flex-container2
+{
+    display: flex;
+}
+
+.flex-container2 > * 
+{
+    flex: 1;
+   
+}
+
+.speech-bubble 
+{
+    background-color: #daedff;
+    color: #072134;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+}
+
+.speech-bubble .arrow 
+{
+    border-style: solid;
+    position: absolute;
+}
+
+.blue-box span {
+    font-size: 1.6em;
+    color: red;
+}
+ 
+.bottom 
+{
+    border-color: #c8c8c8 transparent transparent transparent;
+    border-width: 8px 8px 0px 8px;
+    bottom: -8px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    color: rgb(255, 255, 255); font-size: 8px; line-height: 8px; padding: 8px; border-radius: 7px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(rgb(77, 175, 237) 0%, rgb(25, 146, 222) 100%); box-shadow: rgba(0, 0, 0, 0) -100px -100px 0px 0px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+    input:hover 
+    {
+        background: #4DAFED; 
+    }
+    input:active 
+    {
+        background: #1992DE; 
+    }
+    
+
+h1
+{
+    padding-left: 6px;
+}
+
+
+
+[src="icon.png"]
+{
+    width:50px;
+    height:50px;
+    margin: 6px;
+}
+
+[src="main_img.png"]
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;;
+    margin-top: 10px;
+    min-width: 970px;
+}
+
+[src="building.png"]
+{
+    justify-items: center;
+    min-height: 165px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
